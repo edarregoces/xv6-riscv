@@ -467,3 +467,13 @@ Explorar el sistema operativo de aprendizaje fue una experiencia interesante y e
 #### 5.2.2. Yoskar Alomia
 
 Al revisar el sistema operativo de XV6 entendí que algoritmo, como se re rige y de qué depende la decisión del uso de la cpu, el scheduler del kernel y que el proceso cede la cp por interrupción (yield), al dormirse (sleep) o al terminar su trabajo (exit), esto se pudo visualizar mejor al usar una sola cpù virtual, lo que permitió analizar el algoritmo de Round Robin, pieza fundamental para este algoritmo, como se distribuye cada proceso y como permite que este sea eficiente en salida y en respuesta, como los sube de privilegios cada periodo o los bajasegúnel contadordevecesquesemantenganen lamisma prioridad.
+
+#### 6. Referencias
+
+Arpaci-Dusseau, R. H., y Arpaci-Dusseau, A. C. (2018). Operating systems: Three easy pieces. Arpaci-Dusseau Books. https://ostep.org (capítulo 8, “Scheduling: The Multi-Level Feedback Queue”)
+
+Cox, R., Kaashoek, F., y Morris, R. (s. f.). xv6: A simple, Unix-like teaching operating system [Libro]. MIT. [Completen año y revisión de la copia que usaron.]
+
+MIT PDOS. (2024). Tools used in 6.1810. https://pdos.csail.mit.edu/6.S081/2024/tools.html
+
+mit-pdos. (s. f.). xv6-riscv [Repositorio de código]. GitHub. https://github.com/mit-pdos/xv6-riscv
